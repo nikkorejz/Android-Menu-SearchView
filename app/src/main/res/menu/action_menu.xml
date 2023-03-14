@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.toolbarmenu.MainActivityMenu">
+    <item
+        android:id="@+id/gallery"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Test 1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Test 2"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/more"
+        android:title="Test 3"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Test 4"
+        app:showAsAction="never" />
+</menu>
